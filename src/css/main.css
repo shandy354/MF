@@ -1,0 +1,97 @@
+*{
+    font-family: "poppins",sans-serif;
+}
+.wrapper{
+    background-image:url('../assets/toga.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.wrapper h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Card1{
+    /* padding-top: 20px; */
+    /* margin: 30px; */
+    display: inline-flex;
+    flex-flow: wrap;
+    padding: 20px 110px;
+}
+
+.Card1 p {
+    /* text-align: center; */
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.footer {
+    text-align: center;
+    background-color: darkkhaki;
+}
+.cards{
+text-align: center;
+padding: 30px;
+}
+.item_tanaman{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.item_tanaman h3{
+    font-size:medium;
+
+}
+.item_tanaman a{
+    color: rgb(251, 251, 251);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+.item{
+    padding: 15px 15px 30px 15px;
+}
+.input button{
+    background-color:chartreuse;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+.input input[type=search]{
+    padding: 12px 25px;
+    border:3px solid chartreuse;
+    border-radius: 5px 0 0 5px;
+    font-size: 18px;
+   width: 100px;    
+}
+
+/* .row1{
+    text-align: center;  
+
+}
+.imgdetil{
+    width: 420px;
+}
+.deskripsi{
+    width: 615px;
+    display: inline-table;
+    text-align: justify;
+} */
+.Detil1{
+    margin: auto;
+    padding: 15px 15px 30px 15px;
+}
+.Detil h4{
+    font-size: medium;
+}
+.nama_tanaman{
+    font-weight: bold;
+}
+.Detil h3{
+    font-weight: bold;
+}
