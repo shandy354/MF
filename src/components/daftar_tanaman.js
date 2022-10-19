@@ -37,12 +37,12 @@ export default class DaftarTanaman extends Component {
             </Row>
           </Container>
         </div>
-        <div className="cards">
+        {/* <div className="cards">
           <div className="input">
             <input type="search" placeholder="Cari Tanaman" />
             <button>Cari</button>
           </div>
-        </div>
+        </div> */}
 
         <div className="Card1">
           {this.state.item.map((item) => (
