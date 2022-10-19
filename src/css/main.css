@@ -7,6 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
+  
 }
 .wrapper h1{
     font-size: 60px;
@@ -19,13 +20,22 @@
     /* margin: 30px; */
     display: inline-flex;
     flex-flow: wrap;
-    padding: 20px 110px;
+    /* padding: 20px 110px; */
+}
+.item_tanaman img {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px; 
+    max-height: 200px;
+    
+   
 }
 
 .Card1 p {
     /* text-align: center; */
-    padding-top: 30px;
-    padding-bottom: 40px;
+    /* padding-top: 30px;
+    padding-bottom: 40px; */
 }
 .footer {
     text-align: center;

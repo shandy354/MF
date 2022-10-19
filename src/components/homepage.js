@@ -7,7 +7,7 @@ export default class Homepage extends Component {
     render() {
         return (
           <div>
-          <div className="wrapper min-vh-100 w-100">
+          <div className="wrapper min-vh-90 w-100">
             <Container>
               <Row>
                 <Col className="text-white text-center">
@@ -20,9 +20,9 @@ export default class Homepage extends Component {
             </Container>
           </div>
         <div className="Card1">
-          <Row xs={1} md={2} className="g-4">
+          <Row xs={1} md={2} className="g-4" style={{margin:"10px" }}>
             <Col>
-              <Card border="light">
+              <Card border="light" >
                 <Card.Img variant="top" src= {img} />
               </Card>
             </Col>
