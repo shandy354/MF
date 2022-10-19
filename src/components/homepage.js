@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Container, Row, Col, Card } from "react-bootstrap";
 import img from "../assets/peta.png";
 import image from "../assets/toga1.jpg";
+import Footer1 from "./footer"
 
 export default class Homepage extends Component {
     render() {
@@ -69,6 +70,7 @@ export default class Homepage extends Component {
             </Col>
         </Row>
         </div>
+        <Footer1 />
         </div>
         )
     }

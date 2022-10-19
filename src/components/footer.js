@@ -5,7 +5,7 @@ import { Container, Row, Col} from "react-bootstrap"
 export default class Footer extends Component {
     render() {
         return (
-            <div className= "footer pb-3 pt-4">
+            <div className= "footer pb-2 pt-3">
         <Container>
             <Row>
                 <Col>
