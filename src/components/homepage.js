@@ -7,14 +7,14 @@ export default class Homepage extends Component {
     render() {
         return (
           <div>
-          <div className="wrapper min-vh-90 w-100">
+          <div className="wrapper min-vh-80 w-100">
             <Container>
               <Row>
                 <Col className="text-white text-center">
-                  <h1>
+                  <h2>
                     Welcome to the database of medical plants and rare in Kediri
                     Ragency
-                  </h1>
+                  </h2>
                 </Col>
               </Row>
             </Container>

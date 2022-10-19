@@ -25,14 +25,14 @@ export default class DaftarTanaman extends Component {
     return (
       <div>
         {/* <h2> Daftar tanaman</h2> */}
-        <div className="wrapper min-vh-100 w-100">
+        <div className="wrapper min-vh-80 w-100">
           <Container>
             <Row>
               <Col className="text-white text-center">
-                <h1>
+                <h2>
                   Welcome to the database of medical plants and rare in Kediri
                   Ragency
-                </h1>
+                </h2>
               </Col>
             </Row>
           </Container>
